@@ -3,17 +3,7 @@
 [![npm version](https://badge.fury.io/js/commonjs-sdk.svg)](https://badge.fury.io/js/commonjs-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official Node.js SDK for [Paytring Payment Gateway](https://paytring.com). Accept payments, validate UPI addresses, and manage orders with ease.
-
-## Features
-
-- 🚀 Easy integration with Paytring Payment Gateway
-- 💳 Create and manage payment orders
-- 🔍 Fetch order details and advanced information
-- ✅ UPI VPA validation
-- 🔐 Built-in hash verification for security
-- 📝 TypeScript support (types included)
-- 🛡️ Secure API communication
+Official Node.js ( Comman js ) SDK for [Paytring Payment Gateway](https://paytring.com). Accept payments, validate UPI addresses, and manage orders with ease.
 
 ## Installation
 
