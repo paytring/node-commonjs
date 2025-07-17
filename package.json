@@ -1,16 +1,49 @@
 {
-  "name": "paytring-node",
+  "name": "commonjs-sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official Node.js SDK for Paytring Payment Gateway - Accept payments, validate UPI addresses, and manage orders with ease",
   "main": "./src/index.js",
+  "types": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/runner.js",
+    "prepublishOnly": "npm run test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "paytring",
+    "payment",
+    "gateway",
+    "upi",
+    "nodejs",
+    "sdk",
+    "payments",
+    "india",
+    "fintech",
+    "transaction"
+  ],
+  "author": "Paytring",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paytring/commonjs-sdk"
+  },
+  "homepage": "https://paytring.com",
+  "bugs": {
+    "url": "https://github.com/paytring/commonjs-sdk/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "src/",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
-    "axios": "^1.7.2",
-    "crypto": "^1.0.1"
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }
